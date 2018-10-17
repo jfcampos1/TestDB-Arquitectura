@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'django_boss_db',
         'USER': 'comentariosboss',
         'PASSWORD': '1234qwer',
-        'HOST': '18.222.175.70',
+        'HOST': '18.191.66.169',
         'PORT': '5432',
     }
 }
