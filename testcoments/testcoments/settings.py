@@ -25,7 +25,7 @@ SECRET_KEY = '))d1p(a$bzh#0-4@zvj*8p7(38k=#$yv2=dr9ux6x$fv^%k%=m'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.222.175.70','18.191.66.169']
+ALLOWED_HOSTS = ['18.222.175.70']
 
 
 # Application definition
@@ -79,7 +79,7 @@ DATABASES = {
         'NAME': 'django_boss_db',
         'USER': 'comentariosboss',
         'PASSWORD': '1234qwer',
-        'HOST': '18.191.66.169',
+        'HOST': '18.220.255.169',
         'PORT': '5432',
     }
 }
