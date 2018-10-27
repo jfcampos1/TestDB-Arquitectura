@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'testcoments.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_boss_db',
+        'NAME': os.getenv['DATABASE_NAME'],
         'USER': 'comentariosboss',
         'PASSWORD': '1234qwer',
         'HOST': '18.220.255.169',
